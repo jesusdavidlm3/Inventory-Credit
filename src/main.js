@@ -1,6 +1,12 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
-const url = require ('url')
+const url = require ('url');
+const knex = require('knex')({
+  client: 'sqlite3',
+  connection:{
+    filename: './database.db'
+  }
+});
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) {
