@@ -1,0 +1,44 @@
+{
+  "name": "nueva carpeta",
+  "productName": "nueva carpeta",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.1",
+    "@electron-forge/maker-deb": "^7.3.1",
+    "@electron-forge/maker-rpm": "^7.3.1",
+    "@electron-forge/maker-squirrel": "^7.3.1",
+    "@electron-forge/maker-zip": "^7.3.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
+    "@electron-forge/plugin-fuses": "^7.3.1",
+    "@electron-forge/plugin-vite": "^7.3.1",
+    "@electron/fuses": "^1.8.0",
+    "electron": "29.1.6",
+    "vite": "^5.2.7"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jesus David Lozano",
+    "email": "jesusdavidlozanomarin@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.14",
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "sass": "^1.72.0",
+    "sqlite3": "^5.1.7"
+  }
+}
